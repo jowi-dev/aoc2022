@@ -43,7 +43,7 @@ fn parseOpponent(opponentInput : u8) !choice {
     };
 }
 
-/// My Choice & Points
+/// Player Choice 
 /// X - Rock 
 /// Y - Paper 
 /// Z - Scissors 
@@ -94,7 +94,7 @@ pub fn getGameScore(opponentInput : choice, playerInput : choice)  u8 {
 }
 
 
-/// My Choice & Points
+/// Player Choice Points
 /// Rock - 1
 /// Paper - 2
 /// Scissors -3 
